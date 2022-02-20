@@ -55,6 +55,36 @@ p {
   line-height: 1.5;
 }
 
+.about-section h1 {
+  font-family: var(--heading-font-family);
+  font-size: 64px;
+  line-height: 85px;
+  font-weight: bold;
+}
+
+.about-section h2 {
+  font-family: var(--default-font-family);
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: bold;
+}
+
+.about-section p {
+  font-family: var(--default-font-family);
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: normal;
+  color: rgba(39, 33, 66, 0.7);
+}
+
+.about-section {
+  padding: 160px 20px;
+}
+
+.about-section-content {
+  margin: 30px;
+}
+
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
@@ -94,5 +124,10 @@ p {
 
   .hero {
     padding: 80px 20px;
+  }
+
+  .about-section {
+    text-align: center;
+    padding: 0'
   }
 }
