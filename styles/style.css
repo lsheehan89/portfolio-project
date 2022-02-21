@@ -122,7 +122,7 @@ p {
 }
 
 nav {
-  padding: 20px 0;
+  padding: 20px 10px;
 }
 
 nav li {
@@ -183,7 +183,7 @@ footer .social-links a:hover {
   color: white;
   background: var(--branding-color);
 }
-@media (max-width: 900px) {
+@media (max-width: 991px) {
   .project-description {
     padding: 0;
     text-align: center;
@@ -192,6 +192,11 @@ footer .social-links a:hover {
   h1 {
     font-size: 44px;
     line-height: 2;
+  }
+
+  .content h1 {
+    font-size: 36px;
+    line-height: 1.5;
   }
 
   h2 {
@@ -217,5 +222,18 @@ footer .social-links a:hover {
 
   nav a {
     font-size: 14px;
+  }
+
+  .content-container {
+    padding: 20px 20px;
+  }
+
+  footer .email-link {
+    font-size: 18px;
+  }
+
+  .patricia {
+    margin: auto;
+    display: block;
   }
 }
